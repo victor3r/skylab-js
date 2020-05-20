@@ -1,4 +1,4 @@
-const xhr = XMLHttpRequest();
+const xhr = new XMLHttpRequest();
 
 xhr.open('GET', 'https://api.github.com/users/victor3r');
 xhr.send(null);
